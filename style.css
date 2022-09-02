@@ -1,0 +1,98 @@
+.sectionuno{
+    padding: 10px;
+    background: url(imagenes/bg.jpg);
+    box-shadow: 0 0 20px black;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imagen{
+    width: 100px;
+    height: 100px;
+}
+
+ul{
+        position: absolute;
+        top: 75px;
+        right: 0px;
+        left: 70px;
+}
+
+li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.titulo{
+    color:#82E0AA;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: lighter;
+    text-shadow: 0 0 10px #5DADE2;
+}
+
+body{
+    background-color: #AED6F1;
+}
+
+main{
+    display: block;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.entrada-texto{
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+    
+}
+
+.sectiondos{
+    margin-top: 100px;
+}
+
+.mensaje{
+    border-radius: 10px;
+    box-shadow: 0 0 50px black;
+}
+
+.botones{
+   margin-top: 10px;
+}
+
+
+#encriptar,#desencriptar{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.esteticabotones{
+    transition: 1s all;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #17A589 ;
+    border-width: 1px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.esteticabotones:hover{
+    background-color: #F7DC6F;
+    transform: scale(1.1);
+    
+}
+
+#copiar{
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-image: url("imagenes/lupa3jpg.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 110px;
+    background-size: 100px;
+}

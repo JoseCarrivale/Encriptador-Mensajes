@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+    <link rel="icon" href="imagenes/letraE.png">
+</head>
+
+<body>
+    
+    <header>
+        <section class="sectionuno" >
+            <img src="imagenes/letraE.png" class="imagen" alt="Letra E representante de Encriptar">
+            <ul>
+                <li class="titulo">ncriptador de mensajes</li>
+            </ul>
+            
+        </section>
+    </header>
+
+    <main>
+        <section>
+            
+            <textarea  class="entrada-texto" cols="40" rows="6" placeholder="Ingrese su frase aqui..."></textarea>
+            
+            <div class="botones">
+                <button  class="esteticabotones" id="encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                <button  class="esteticabotones" id="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="sectiondos">
+
+            <textarea  class="mensaje" cols="40" rows="6"></textarea>
+
+            <div class="botones">
+                <button class="esteticabotones" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="codigo.js"></script>
+
+</body>
