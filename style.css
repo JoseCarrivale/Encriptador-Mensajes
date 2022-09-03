@@ -1,38 +1,17 @@
-.sectionuno{
-    padding: 10px;
-    background: url(imagenes/bg.jpg);
-    box-shadow: 0 0 20px black;
-    margin: 0 auto;
-    position: relative;
-}
-
-.imagen{
-    width: 100px;
-    height: 100px;
-}
-
-ul{
-        position: absolute;
-        top: 75px;
-        right: 0px;
-        left: 70px;
-}
-
-li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-.titulo{
-    color:#82E0AA;
-    font-size: 25px;
-    font-style: oblique;
+h1{
+    color:#38ECBB  ;
+    font-size: 30px;
     font-weight: lighter;
-    text-shadow: 0 0 10px #5DADE2;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 320px;
+    -webkit-text-stroke: 2px black;
 }
 
 body{
-    background-color: #AED6F1;
+    background-image: url(imagenes/cifrado-GDPR.jpg);
+    background-size: 100%;
 }
 
 main{
@@ -42,18 +21,35 @@ main{
 }
 
 .entrada-texto{
+    color:green;
+    font-style: ;
     border-radius: 10px;
-    box-shadow: 0 0 50px black;
-    
+    box-shadow: 0 0 70px black;
+    background-color: black;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.entrada-texto placeholder{
+    color: green;
+}
+
+::placeholder{
+    color: green;
 }
 
 .sectiondos{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .mensaje{
+    color: green;
     border-radius: 10px;
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 70px black;
+    background-color: black;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+    
 }
 
 .botones{
@@ -62,37 +58,42 @@ main{
 
 
 #encriptar,#desencriptar{
-    margin-left: 5px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
 .esteticabotones{
+    color: white;
     transition: 1s all;
-    width: 150px;
+    width: 400px;
+    height: 40px;
     border-radius: 20px;
-    background-color: #17A589 ;
-    border-width: 1px;
+    background-color: black;
+    border-width: 2px;
     font-weight: bolder;
     cursor: pointer;
+    border-color:green;
 }
 
 .esteticabotones:hover{
-    background-color: #F7DC6F;
+    background-color: green;
     transform: scale(1.1);
     
 }
 
 #copiar{
-    margin-left: 85px;
+    margin-left: 23%;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .mensaje{
     position: relative;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 0px;
-    background-image: url("imagenes/lupa3jpg.jpg") ;
+    background-image: url("imagenes/lupa1.jpg") ;
+    background-size: 30%;
     background-repeat: no-repeat;
-    background-position: 110px;
-    background-size: 100px;
+    background-position: 50%;
+    
 }
