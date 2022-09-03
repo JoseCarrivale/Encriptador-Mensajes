@@ -1,12 +1,12 @@
 h1{
-    color:#38ECBB  ;
+    color:#C804A7   ;
     font-size: 30px;
     font-weight: lighter;
     font-family: 'Press Start 2P', cursive;
-    margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
     margin-left: 320px;
     -webkit-text-stroke: 2px black;
+    text-shadow: 8px 8px 10px #C804A7;
 }
 
 body{
@@ -24,10 +24,12 @@ main{
     color:green;
     font-style: ;
     border-radius: 10px;
-    box-shadow: 0 0 70px black;
+    box-shadow: 0 0 100px #21F014 ;
     background-color: black;
     border: none;
     font-family: 'Press Start 2P', cursive;
+    
+
 }
 
 .entrada-texto placeholder{
@@ -45,7 +47,7 @@ main{
 .mensaje{
     color: green;
     border-radius: 10px;
-    box-shadow: 0 0 70px black;
+    box-shadow: 0 0 100px #21F014 ;
     background-color: black;
     border: none;
     font-family: 'Press Start 2P', cursive;
@@ -63,8 +65,8 @@ main{
 }
 
 .esteticabotones{
-    color: white;
-    transition: 1s all;
+    color: #F10606  ;
+    transition: 2s all;
     width: 400px;
     height: 40px;
     border-radius: 20px;
